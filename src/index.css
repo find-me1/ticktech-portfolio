@@ -1,13 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-bottom: 0px;
+}
+html {
+  font-size: 62.5%;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: rgb(127, 128, 171);
+  font-weight: 400;
+  padding: 3.2rem;
+  overflow-x: hidden;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.navbar1 {
+  display: flex;
+  gap: 69rem;
+  position: fixed;
+  z-index: 1;
+}
+.navbartop {
+  display: flex;
+  gap: 3rem;
+  letter-spacing: 1px;
+  list-style-type: none;
+}
+.navbartop li a {
+  text-decoration: none;
+  font-size: 13px;
+  color: black;
+}
+.navbartop.untoggle li a {
+  text-decoration: none;
+  font-size: 13px;
+  color: white;
+}
+.navbartop li {
+  transform: translateY(10px);
+}
+.logotop {
+  display: flex;
+  gap: 3rem;
+  margin-right: -170px;
+  margin-left: 30px;
+}
+
+.pname {
+  color: black;
+  transform: translateY(10px);
+  font-size: 15px;
+  width: 200px;
+  font-weight: bold;
+}
+.pname-toggled {
+  color: white;
+  transform: translateY(10px);
+  font-size: 15px;
+  width: 200px;
+  font-weight: bold;
+}
+.toggle {
+  transform: translateX(-650px);
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+body.toggled {
+  background-color: #ffffff;
+}
+
+body.untoggle {
+  background-color: black;
+}
+.logoimg {
+  width: 35px;
+  height: 40px;
 }
