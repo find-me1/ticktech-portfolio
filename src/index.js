@@ -22,7 +22,7 @@ export default function App() {
 }
 function Navbar({ toggled, toggle }) {
   return (
-    <div className={`navbar1 ${toggled ? "toggled" : "untoggle"}`}>
+    <div className={`navbar1 ${toggled ? "" : "navbar1-toggle"}`}>
       <span className={`logotop ${toggled ? "toggled" : "untoggle"}`}>
         <img
           src={toggled ? "./logo.png" : "./logotoggle.png"}
