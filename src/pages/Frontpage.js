@@ -109,7 +109,7 @@ export default function Frontpage({ toggled }) {
               <span className="down">Download cv</span>
             </a>
             <a href="a">
-              <span className={` ${toggled ? "touch" : "touch-toggle"}`}>
+              <span className={`touch ${toggled ? "" : "touch-toggle"}`}>
                 Get in Touch!
               </span>
             </a>

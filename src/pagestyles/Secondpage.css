@@ -67,3 +67,56 @@
 .abouttextp1 {
   font-weight: 600;
 }
+@media only screen and (max-width: 600px) {
+  .leftimg {
+    width: 150px;
+    height: 150px;
+    transform: translate(-30px, 80%);
+  }
+  .handimg {
+    width: 400px;
+    height: 250px;
+    transform: translate(-160px, 30%);
+  }
+  .yellowimg {
+    width: 150px;
+    height: 150px;
+    transform: translate(-200%, 450px);
+  }
+  .bottomimg {
+    width: 150px;
+    height: 130px;
+    transform: translate(-480px, 470px);
+  }
+  .rightimg {
+    width: 225px;
+    height: 225px;
+    transform: translate(-550px, 55%);
+  }
+  .abouttext {
+    transform: translate(-305px, 90%);
+    margin-right: 100px;
+    height: 100px;
+  }
+  .abouttexth1 {
+    color: black;
+    font-size: 10px;
+    margin-bottom: 20px;
+    transform: translateX(-30px);
+  }
+
+  .abouttexth11 {
+    font-size: 20px;
+  }
+  .styled-hr {
+    transform: translate(30%, 0px);
+    width: 250px;
+  }
+  .styled-hr1 {
+    transform: translate(10%, 40px);
+    width: 200px;
+  }
+  .abouttextp {
+    font-size: 10px;
+  }
+}

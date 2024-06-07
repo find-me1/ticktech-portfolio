@@ -29,11 +29,11 @@ function Navbar({ toggled, toggle }) {
           className="logoimg"
           alt="logo"
         />
-        <p className={`pname ${toggled ? "pname" : "pname-toggled"}`}>
+        <p className={`pname ${toggled ? "" : "pname-toggled"}`}>
           ANISH KUMAR SINHA
         </p>
       </span>
-      <ul className={`navbartop ${toggled ? "toggled" : "untoggle"}`}>
+      <ul className={`navbartop ${toggled ? "" : "untoggle"}`}>
         <li>
           <a href="a">Home</a>
         </li>
